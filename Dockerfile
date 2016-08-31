@@ -26,4 +26,4 @@ RUN apt-get install -y \
     cmake
 
 # Install other dependencies
-RUN apt-get install -y python-pip git-core unzip zip
+RUN apt-get install -y python-pip git-core unzip zip curl
